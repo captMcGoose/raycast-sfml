@@ -1,3 +1,5 @@
+//Credits for most of the code to Thomas van der Berg
+
 /*
 Cheap wolfenstein chinese copycat engine in C++
 
