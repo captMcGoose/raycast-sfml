@@ -1,22 +1,5 @@
 //Credits for most of the code to Thomas van der Berg
 
-/*
-Cheap wolfenstein chinese copycat engine in C++
-
-#THINGS TO DO:# 
--Add mouselook
--Find out how to compile-in modules (for now make classes in main.cpp)
--Continue https://lodev.org/cgtutor/raycasting.html#Introduction and learn how to make floor and ceiling textures
--Make Sprite class
-
--Make level transitioning
--Implement Dijkstra/A* pathfinding
-
-
-*/
-
-
-
 #include <stdio.h>
 #include <stdint.h>
 #include <math.h>
@@ -205,7 +188,7 @@ int main() {
     
 
     // create window
-    sf::RenderWindow window(sf::VideoMode(screenWidth + 1, screenHeight), "Wolfenstein 3D Chinese copycat");
+    sf::RenderWindow window(sf::VideoMode(screenWidth + 1, screenHeight), "Wolfenstein 3D engine copy");
     window.setSize(sf::Vector2u(screenWidth, screenHeight)); 
 
     window.setMouseCursorVisible(false);
