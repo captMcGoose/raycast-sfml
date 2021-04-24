@@ -1,4 +1,3 @@
-//Credits for most of the code to Thomas van der Berg
 
 #include <stdio.h>
 #include <stdint.h>
